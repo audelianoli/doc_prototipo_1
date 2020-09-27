@@ -9,3 +9,26 @@ As recentes reduções da taxa Selic atraíram um grande número de investidores
 
 ## Pipeline
 ![](figuras/pipeline.png)
+
+### Coleta e Tratamento dos Dados
+![](figuras/coleta_tratamento_dados.png)
+
+
+### Criação do Modelo | Treinamento | Teste
+Após uma revisão da literatura, verificou-se que modelos estatísticos tradicionais performavam bem durante um tempo, mas sua acurácia degradava após um período. Alguns fatores podem ser levados em consideração: mudança do comportamento do mercado, o banco de dados utilizado para treinamento não possuía alguns cenários importantes para a extração de features, alguns modelos consideravam as séries temporais financeiras como um sistema linear, dentre outros.
+
+Em contrapartida, modelos de Deep Learning têm ganhado bastante destaque nos últimos anos, principalmente redes recorrentes do tipo Long Short-Term Memory (LSTM), uma vez que são capazes de armazenar memória, lidam bem com o problema de Vanishing Gradient e têm demonstrado bons resultados para problemas com séries temporais não lineares, caóticas e estocásticas, características presentes em séries temporais financeiras.
+
+Além disso, é importante utilizar camadas de DROPOUT, uma técnica essencial para a generalização de um modelo de Deep Learning.
+
+### Teste em Ambiente Simulado (Deploy Simulado)
+
+
+
+### Teste em Ambiente Real (Deploy)
+
+
+
+### Melhorias e Possíveis Trabalhos Futuros
+
+
