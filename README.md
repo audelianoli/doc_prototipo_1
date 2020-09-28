@@ -12,11 +12,15 @@ As recentes reduções da taxa Selic atraíram um grande número de investidores
 
 ## Pipeline
 
-<img src="figuras/pipeline.png" width="900">
+<p align="center">
+  <img src="figuras/pipeline.png" width="900">
+</p>
 
 ### Coleta e Tratamento dos Dados
 
-<img src="figuras/coleta_tratamento_dados.png" width="800">
+<p align="center">
+  <img src="figuras/coleta_tratamento_dados.png" width="800">
+</p>
 
 ### Criação do Modelo | Treinamento | Teste
 
@@ -28,15 +32,21 @@ Além disso, é importante utilizar camadas de Dropout, uma técnica essencial p
 
 ### Teste em Ambiente Simulado (Deploy Simulado)
 
-<img src="figuras/deploy_demo.png" width="800">
+<p align="center">
+  <img src="figuras/deploy_demo.png" width="800">
+</p>
 
 Abaixo o gráfico da lucratividade do modelo proposto, denominado <b>LSTM-RMODV</b>, em relação aos modelos utilizando outras técnicas de trading, além da implementação, ou não, de um Risk Management (RM).
 
-<img src="figuras/lucratividade.png" width="800">
+<p align="center">
+  <img src="figuras/lucratividade.png" width="800">
+</p>
 
 Quando comparado à técnica de B&H, o modelo apresentou um lucro próximo a 8 vezes ao obtido pelo benchmark (índice Bovespa). Como pode ser visto na tabela a seguir.
 
-<img src="figuras/tabela_modelo_vs_bovespa.png" width="600">
+<p align="center">
+  <img src="figuras/tabela_modelo_vs_bovespa.png" width="600">
+</p>
 
 Para maiores detalhes sobre as estratégias adotadas, modelos utilizados para efeito de comparação e resultados experimentais, acesse o artigo pelo link [EM BREVE].
 
