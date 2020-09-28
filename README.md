@@ -1,10 +1,10 @@
 # Automated Trading System for Stock Index Using LSTM Neural Networks and Risk Management
 
-Este repositório tem a finalidade de apresentar o pipeline adotado para o desenvolvimento do primeiro protótipo de um algotrading quantitativo, fruto da tese de meu doutorado.
+Este repositório tem a finalidade de apresentar o pipeline adotado para o desenvolvimento do primeiro protótipo de um algotrading quantitativo, fruto da tese de meu doutorado (em andamento), assim o código ainda não será disponibilizado.
 
 O trabalho foi elaborado em parceria com a <b>Thalita Ramires da Silva</b> e apresentado na <i>International Joint Conference on Neural Networks</i> (IJCNN) em julho de 2020. Como está em processo de publicação, ainda não possui DOI.
 
-Ferramentas e bibliotecas utilizadas: Tensorflow, Keras, MetaTrader5, socket, NumPy, Pandas, TA-Lib, json, scikit-learn, matplotlib
+Ferramentas e bibliotecas utilizadas: Tensorflow, Keras, MetaTrader5, socket, NumPy, Pandas, TA-Lib, json, scikit-learn, matplotlib.
 
 ## Resumo
 
