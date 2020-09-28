@@ -42,9 +42,14 @@ Apesar destas precauções, o MetaTrader 5 apresenta algumas pequenas diferença
 As melhorias do projeto são separadas por ciclos. Considerando que este protótipo é o Ciclo 1, as futuras melhorias são listadas a seguir:
 
 Ciclo 2: Otimização dos parâmetros do Trading Strategy e criação de outras estratégias. [Ok]
+
 Ciclo 3: Redução da dimensionalidade e seleção das features mais relevantes. [Em desenvolvimento]
+
 Ciclo 4: Utilizar dados das ações mais relevantes (Blue Chips) como features para o modelo previsor. [Em desenvolvimento]
+
 Ciclo 5: Testar em outros mercados (ações, índices estrangeiros, bitcoin).
+
 Ciclo 6: Testar outros modelos de Deep Learning (GRU, Convolutional Recurrent Neural Network, Autoencoders, CNN para análise gráfica, etc).
+
 Ciclo 7: Fazer coleta de notícias e implementar técnicas de NLP para evitar falsas entradas.
 
