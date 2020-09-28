@@ -25,12 +25,18 @@ Além disso, é importante utilizar camadas de DROPOUT, uma técnica essencial p
 ### Teste em Ambiente Simulado (Deploy Simulado)
 ![](figuras/deploy_demo.png)
 
+Abaixo o gráfico da lucratividade do modelo proposto, denominado LSTM-RMODV, em relação aos modelos utilizando outras técnicas de trading, além da implementação, ou não, de um Risk Management (RM).
+![](figuras/lucratividade.png)
+
+Quando comparado à técnica de B&H, o modelo apresentou um lucro próximo a 8 vezes ao obtido pelo benchmark (índice Bovespa). Como pode ser visto na tabela a seguir.
+![](figuras/tabela_modelo_vs_bovespa.png)
+
+Para maiores detalhes sobre as estratégias adotadas, modelos utilizados para efeito de comparação e resultados experimentais, acesse o artigo pelo link [EM BREVE].
+
 ### Teste em Ambiente Real (Deploy)
 É de suma importância o teste em ambiente simulado para corrigir possíveis problemas de programação e configurações da estratégia de trading. 
 
 Apesar destas precauções, o MetaTrader 5 apresenta algumas pequenas diferenças entre seu backtest e as execuções em tempo real, portanto, é recomendável operar com lotes mínimos para efeito de testes e evitar grandes prejuízos desnecessariamente.
-
-Para maiores detalhes sobre as estratégias adotadas, modelos utilizados para efeito de comparação e resultados experimentais, acesse o artigo pelo link [EM BREVE].
 
 ### Melhorias e Possíveis Trabalhos Futuros
 As melhorias do projeto são separadas por ciclos. Considerando que este protótipo é o Ciclo 1, as futuras melhorias são listadas a seguir:
@@ -41,8 +47,4 @@ Ciclo 4: Utilizar dados das ações mais relevantes (Blue Chips) como features p
 Ciclo 5: Testar em outros mercados (ações, índices estrangeiros, bitcoin).
 Ciclo 6: Testar outros modelos de Deep Learning (GRU, Convolutional Recurrent Neural Network, Autoencoders, CNN para análise gráfica, etc).
 Ciclo 7: Fazer coleta de notícias e implementar técnicas de NLP para evitar falsas entradas.
-
-
-
-
 
