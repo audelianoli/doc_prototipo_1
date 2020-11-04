@@ -2,7 +2,7 @@
 
 Este repositório tem a finalidade de apresentar o pipeline adotado para o desenvolvimento do primeiro protótipo de um algotrading quantitativo, fruto da tese de meu doutorado (em andamento), assim o código ainda não será disponibilizado.
 
-O trabalho foi elaborado em parceria com a <b>Thalita Ramires da Silva</b> e apresentado na <i>International Joint Conference on Neural Networks</i> (IJCNN) em julho de 2020. Como está em processo de publicação, ainda não possui DOI.
+O trabalho foi elaborado em parceria com a <b>Thalita Ramires da Silva</b> e apresentado na <i>International Joint Conference on Neural Networks</i> (IJCNN) em julho de 2020. Disponível em: https://doi.org/10.1109/IJCNN48605.2020.9207278
 
 Ferramentas e bibliotecas utilizadas: Tensorflow, Keras, MetaTrader5, socket, NumPy, Pandas, TA-Lib, json, scikit-learn, matplotlib.
 
@@ -48,7 +48,7 @@ Quando comparado à técnica de B&H, o modelo apresentou um lucro próximo a 8 v
   <img src="figuras/tabela_modelo_vs_bovespa.png" width="600">
 </p>
 
-Para maiores detalhes sobre as estratégias adotadas, modelos utilizados para efeito de comparação e resultados experimentais, acesse o artigo pelo link [EM BREVE].
+Para maiores detalhes sobre as estratégias adotadas, modelos utilizados para efeito de comparação e resultados experimentais, acesse o artigo pelo link https://doi.org/10.1109/IJCNN48605.2020.9207278.
 
 ### Teste em Ambiente Real (Deploy)
 
